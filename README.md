@@ -74,7 +74,7 @@ Step10. Double click on the the MCU part to open settings. Next to the Program F
 Step14. click on debug and simulate using simulation as shown below 
 
 ## STM 32 CUBE PROGRAM :
-```
+```c
 #include "main.h"
 
 TIM_HandleTypeDef htim2;
