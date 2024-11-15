@@ -190,7 +190,11 @@ void assert_failed(uint8_t *file, uint32_t line)
 ```
 ## Output screen shots of proteus  :
  
- ![Screenshot 2024-10-14 025530](https://github.com/user-attachments/assets/c10d815a-d494-45a8-9174-d7db653fab85)
+ ![image](https://github.com/user-attachments/assets/c8fdb444-7305-471d-a7af-e45b2d2f960e)
+![image](https://github.com/user-attachments/assets/5db86739-4800-45c2-a7ce-f5a6095e01ee)
+![image](https://github.com/user-attachments/assets/70a8b28b-04fb-4e40-a081-c56752eb33c5)
+![image](https://github.com/user-attachments/assets/bd6652a5-73b8-4634-bc56-3e6cbc65e968)
+
 
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  ![image](https://github.com/user-attachments/assets/423b0d51-e314-490e-ade7-3ea13f24ff99)
@@ -199,26 +203,24 @@ void assert_failed(uint8_t *file, uint32_t line)
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
 
-TON = 2ms
-TOFF=2ms
-TOTAL TIME = 4ms
-FREQUENCY = 1/(410^-3) = 250Hz 
+TON = 2.5ms
+TOFF=2.5ms
+TOTAL TIME = 5ms
+FREQUENCY = 1/(5*10^-3)= 200Hz
 
+FOR PULSE AT 600
+
+TON = 3ms
+TOFF= 2ms
+TOTAL TIME = 5ms
+FREQUENCY = 1/(TOTAL TIME)=200Hz
 
 FOR PULSE AT 700
 
-TON = 2.17ms
-TOFF= 0.93ms
-TOTAL TIME = 3.1ms
-FREQUENCY = 1/(3.110^-3) = 322.58Hz 
-
-
-FOR PULSE AT 900
-
-TON = 2.88ms
-TOFF= 0.32ms
-TOTAL TIME = 3.2ms 
-FREQUENCY = 1/(3.210^3) = 312.5Hz
+TON = 3.5ms
+TOFF=1.5ms
+TOTAL TIME = 5ms
+FREQUENCY = 1/(TOTAL TIME)=200Hz
 
 
 ## Result :
